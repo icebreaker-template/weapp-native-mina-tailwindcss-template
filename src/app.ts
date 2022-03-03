@@ -3,7 +3,7 @@
 import { range } from 'rxjs'
 import { map, filter } from 'rxjs/operators'
 //import { camelCase } from 'lodash'
-//import moment from 'moment'
+//import dayjs from 'dayjs'
 
 range(1, 200)
   .pipe(
@@ -19,7 +19,7 @@ App({
     console.log('-----------------------------------------------')
     //console.log(camelCase('OnLaunch'))
 
-    //let sFromNowText = moment(new Date().getTime() - 360000).fromNow()
+    //let sFromNowText = dayjs(new Date().getTime() - 360000).fromNow()
     //console.log(sFromNowText)
 
     // 展示本地存储能力
