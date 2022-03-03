@@ -1,3 +1,6 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/utilities';
+
 $padding: 200rpx;
 
 .container {
@@ -9,3 +12,4 @@ $padding: 200rpx;
   padding: $padding 0;
   box-sizing: border-box;
 }
+
