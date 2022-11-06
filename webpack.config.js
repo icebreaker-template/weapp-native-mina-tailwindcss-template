@@ -55,6 +55,10 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin({
       cleanStaleWebpackAssets: false,
+      cleanOnceBeforeBuildPatterns: [
+        '**/*',
+        '!miniprogram_npm/**',
+      ],
     }),
     new CopyWebpackPlugin({
       patterns: [
