@@ -33,26 +33,32 @@
     },
     "useIsolateContext": false,
     "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
     "minifyWXSS": true,
     "disableUseStrict": false,
     "minifyWXML": true,
     "showES6CompileOption": false,
     "useCompilerPlugins": false,
-    "useStaticServer": true
+    "ignoreUploadUnusedFiles": true,
+    "useStaticServer": true,
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./dist"
+      }
+    ]
   },
   "miniprogramRoot": "dist/",
   "compileType": "miniprogram",
-  "libVersion": "2.24.6",
+  "libVersion": "2.24.1",
   "appid": "wxb3d842a4a7e3440d",
-  "projectname": "my-mina",
+  "projectname": "native-mina",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "condition": {},
   "srcMiniprogramRoot": "dist/",
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "condition": {}
 }

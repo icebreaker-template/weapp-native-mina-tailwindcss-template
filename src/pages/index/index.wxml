@@ -1,6 +1,20 @@
 <!-- index.wxml -->
 <import src="../../wxml/motto/motto.wxml" />
 <view class="container">
+  <van-cell-group>
+    <van-cell title="单元格" value="内容" />
+    <van-cell title="单元格" value="内容" label="描述信息" border="{{ false }}" />
+  </van-cell-group>
+  <!-- <view class="button-example">
+    <t-button theme="primary" size="large">填充按钮</t-button>
+    <t-button theme="light" size="large">填充按钮</t-button>
+    <t-button size="large">填充按钮</t-button>
+  </view> -->
+  <van-button type="default">默认按钮</van-button>
+  <van-button type="primary">主要按钮</van-button>
+  <van-button type="info">信息按钮</van-button>
+  <van-button type="warning">警告按钮</van-button>
+  <van-button type="danger">危险按钮</van-button>
   <view class="bg-[#543214] w-10 h-10" hover-class="bg-[#888888]"></view>
   <view class="p-[20px] -mt-2 mb-[-20px]">
     p-[20px] -mt-2 mb-[-20px] margin的jit 可不能这么写 -m-[20px]

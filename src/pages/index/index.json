@@ -1,5 +1,8 @@
 {
   "usingComponents": {
-    "user": "../../components/user/user"
+    "user": "../../components/user/user",
+    "van-button": "@vant/weapp/button/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index"
   }
 }

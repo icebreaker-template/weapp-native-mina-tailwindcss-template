@@ -1,19 +1,7 @@
 //app.js
 
-import { range } from 'rxjs'
-import { map, filter } from 'rxjs/operators'
-//import { camelCase } from 'lodash'
-//import dayjs from 'dayjs'
-
-range(1, 200)
-  .pipe(
-    filter(x => x % 2 === 1),
-    map(x => x + x),
-  )
-  .subscribe(x => console.log(x))
-
 App({
-  onLaunch: function() {
+  onLaunch: function () {
     console.log(`环境：${process.env.NODE_ENV} 构建类型：${process.env.BUILD_TYPE}`)
 
     console.log('-----------------------------------------------')
