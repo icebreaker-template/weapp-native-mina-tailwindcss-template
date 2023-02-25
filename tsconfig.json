@@ -13,7 +13,8 @@
     "baseUrl": ".",
     "types": ["miniprogram-api-typings"],
     "paths": {
-      "@vant/weapp/*": ["./node_modules/@vant/weapp/dist/*"]
+      "@vant/weapp/*": ["./node_modules/@vant/weapp/dist/*"],
+      "tdesign-miniprogram/*":["./dist/miniprogram_npm/tdesign-miniprogram/*"]
     }
   },
   "exclude": ["node_modules", "dist", "webpack.config.js", "jest.config.js"]

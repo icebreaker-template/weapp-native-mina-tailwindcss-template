@@ -25,7 +25,8 @@
   "dependencies": {
     "@vant/weapp": "^1.10.13",
     "dayjs": "^1.11.7",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "tdesign-miniprogram": "^1.0.0-rc.3"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",

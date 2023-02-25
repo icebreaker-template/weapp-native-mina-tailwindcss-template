@@ -4,6 +4,8 @@
     "avatar": "../../components/avatar/avatar",
     "van-button": "@vant/weapp/button/index",
     "van-cell": "@vant/weapp/cell/index",
-    "van-cell-group": "@vant/weapp/cell-group/index"
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-input": "tdesign-miniprogram/input/input"
   }
 }
