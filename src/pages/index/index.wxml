@@ -10,7 +10,7 @@
     <van-button type="default">默认按钮</van-button>
   </view>
   <view>
-     <view class="px-4 py-1">tdesign-miniprogram 组件</view>
+    <view class="px-4 py-1">tdesign-miniprogram 组件</view>
     <t-button theme="primary">按钮</t-button>
     <t-input label="标签文字" placeholder="请输入文字"></t-input>
   </view>
