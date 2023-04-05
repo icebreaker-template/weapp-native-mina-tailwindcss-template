@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const MinaWebpackPlugin = require('./plugin/MinaWebpackPlugin')
 const MinaRuntimePlugin = require('./plugin/MinaRuntimePlugin')
 const LodashWebpackPlugin = require('lodash-webpack-plugin')
-const { NativeWeappTailwindcssWebpackPluginV5 } = require('weapp-tailwindcss-webpack-plugin')
+const { UnifiedWebpackPluginV5 } = require('weapp-tailwindcss-webpack-plugin')
 const debuggable = process.env.BUILD_TYPE !== 'release'
 
 module.exports = {
@@ -76,7 +76,7 @@ module.exports = {
       NODE_ENV: JSON.stringify(process.env.NODE_ENV) || 'development',
       BUILD_TYPE: JSON.stringify(process.env.BUILD_TYPE) || 'debug',
     }),
-    new NativeWeappTailwindcssWebpackPluginV5(),
+    new UnifiedWebpackPluginV5(),
   ],
   optimization: {
     splitChunks: {
