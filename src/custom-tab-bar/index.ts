@@ -16,7 +16,7 @@ Component({
     }]
   },
   methods: {
-    switchTab(e) {
+    switchTab(e: WechatMiniprogram.CustomEvent) {
       const data = e.currentTarget.dataset
       const url = data.path
       wx.switchTab({ url })

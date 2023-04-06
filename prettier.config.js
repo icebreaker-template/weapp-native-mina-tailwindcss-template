@@ -1,5 +1,7 @@
 const tailwind = require('prettier-plugin-tailwindcss')
-
+/**
+ * @type {import('prettier').Config}
+ */
 module.exports = {
   semi: false,
   trailingComma: 'all',
@@ -8,6 +10,8 @@ module.exports = {
   tabWidth: 2,
   arrowParens: 'avoid',
   plugins: [tailwind],
+  bracketSameLine: true,
+  htmlWhitespaceSensitivity: "ignore",
   overrides: [
     {
       files: '*.wxml',
