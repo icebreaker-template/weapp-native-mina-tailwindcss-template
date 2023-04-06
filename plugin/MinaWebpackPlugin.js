@@ -27,6 +27,13 @@ function inflateEntries(entries, dirname, entry) {
 
   if (typeof entry === 'object') {
     entry = entry.main.import[0]
+    // custom-tab-bar
+
+    const customTabBar = path.resolve(dirname, 'custom-tab-bar/index.json')
+    if (customTabBar != null && !entries.includes(customTabBar)) {
+      entries.push(customTabBar)
+      _inflateEntries(entries, path.dirname(customTabBar), customTabBar)
+    }
   }
 
   if (typeof entry !== 'string') {
