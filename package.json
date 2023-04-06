@@ -26,10 +26,10 @@
   "dependencies": {
     "@vant/weapp": "^1.10.15",
     "dayjs": "^1.11.7",
-    "lodash": "^4.17.21",
     "tdesign-miniprogram": "^1.1.1"
   },
   "devDependencies": {
+    "lodash": "^4.17.21",
     "@babel/core": "^7.21.4",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-transform-runtime": "^7.21.4",
