@@ -30,7 +30,8 @@ function inflateEntries(entries, dirname, entry) {
     // custom-tab-bar
 
     const customTabBar = path.resolve(dirname, 'custom-tab-bar/index.json')
-    if (customTabBar != null && !entries.includes(customTabBar)) {
+    const isExist = fs.existsSync(customTabBar)
+    if (isExist && customTabBar != null && !entries.includes(customTabBar)) {
       entries.push(customTabBar)
       _inflateEntries(entries, path.dirname(customTabBar), customTabBar)
     }
