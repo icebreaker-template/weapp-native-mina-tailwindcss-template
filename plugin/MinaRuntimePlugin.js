@@ -53,7 +53,7 @@ const concatenateDependenciesAndFile = (compilation, source, entry) => {
     return source
   }
 
-  let dependencies = []
+  const dependencies = []
   entry.groupsIterable.forEach(group => {
     console.log(`group name:${group.name}`)
     group.chunks.forEach(chunk => {
@@ -61,7 +61,7 @@ const concatenateDependenciesAndFile = (compilation, source, entry) => {
       /**
        * assume output.filename is chunk.name here
        */
-      let filename = ensurePosix(path.relative(path.dirname(entry.name), chunk.name))
+      const filename = ensurePosix(path.relative(path.dirname(entry.name), chunk.name))
       if (chunk === entry || ~dependencies.indexOf(filename)) {
         return
       }

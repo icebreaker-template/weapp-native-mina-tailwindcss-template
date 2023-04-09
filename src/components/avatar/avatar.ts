@@ -8,6 +8,6 @@ Component({
   lifetimes: {
     created: function () {
       console.log('avatar component created!')
-    }
-  }
+    },
+  },
 })

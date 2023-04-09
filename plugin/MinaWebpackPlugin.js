@@ -41,9 +41,9 @@ function inflateEntries(entries, dirname, entry) {
     throw new Error('入口文件位置获取有误，请检查webpack版本或webpack配置(webpack.config.js)是否发生变化')
   }
 
-  //通过useExtendedLib扩展库的方式引入WeUI组件https://developers.weixin.qq.com/miniprogram/dev/extended/weui/quickstart.html
-  //扩展库内置于开发者工具中，此处无需处理
-  //WeUI组件路径包含weui-miniprogram，据此进行判断
+  // 通过useExtendedLib扩展库的方式引入WeUI组件https://developers.weixin.qq.com/miniprogram/dev/extended/weui/quickstart.html
+  // 扩展库内置于开发者工具中，此处无需处理
+  // WeUI组件路径包含weui-miniprogram，据此进行判断
   if (entry.includes('weui-miniprogram') || entry.includes('tdesign-miniprogram') || entry.includes('@vant/weapp')) {
     return
   }
