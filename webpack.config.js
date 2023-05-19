@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const MinaWebpackPlugin = require('./plugin/MinaWebpackPlugin')
 const MinaRuntimePlugin = require('./plugin/MinaRuntimePlugin')
 const LodashWebpackPlugin = require('lodash-webpack-plugin')
-const { UnifiedWebpackPluginV5 } = require('weapp-tailwindcss-webpack-plugin')
+const { UnifiedWebpackPluginV5 } = require('weapp-tailwindcss/webpack')
 const debuggable = process.env.BUILD_TYPE !== 'release'
 
 module.exports = {
