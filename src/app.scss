@@ -1,5 +1,6 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 $padding: 0rpx;
 
@@ -13,4 +14,3 @@ $padding: 0rpx;
   padding: $padding 0;
   box-sizing: border-box;
 }
-

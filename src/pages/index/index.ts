@@ -5,6 +5,8 @@ const app = getApp()
 Page({
   data: {
     motto: 'Hello World!',
+    bgUrl:
+      'bg-[url(https://pic1.zhimg.com/v2-3ee20468f54bbfefcd0027283b21aaa8_720w.jpg)] bg-[length:100%_100%] bg-no-repeat w-screen h-[41.54vw]',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
