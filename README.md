@@ -1,5 +1,9 @@
 # 简介
 
+## 修改 ts 代码后热更新不生效？
+
+记得关闭微信开发者工具中，`启动代码自动热重载功能` 这个功能。
+
 ## 此项目和 [`listenzz/MyMina`](https://github.com/listenzz/MyMina) 的不同点
 
 - 摒弃了 `node-sass`，改用了 `dart-sass`

@@ -8,6 +8,7 @@ const LodashWebpackPlugin = require('lodash-webpack-plugin')
 const { UnifiedWebpackPluginV5 } = require('weapp-tailwindcss/webpack')
 const debuggable = process.env.BUILD_TYPE !== 'release'
 
+/** @type {import('webpack').Configuration} */
 module.exports = {
   context: resolve('src'),
   entry: { main: './app.js' },
@@ -19,6 +20,13 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.js'],
+  },
+  cache: {
+    type: 'filesystem',
+    cacheDirectory: resolve(__dirname, './node_modules/.cache/webpack'),
+    buildDependencies: {
+      config: [__filename],
+    },
   },
   module: {
     rules: [

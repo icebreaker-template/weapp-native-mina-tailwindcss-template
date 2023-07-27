@@ -2,6 +2,7 @@
 <import src="../../wxml/motto/motto.wxml" />
 <view class="container">
   <view class="{{bgUrl}}"></view>
+  <view>{{motto}}</view>
   <view class="w-full">
     <view class="px-4 py-1">vant weapp 组件</view>
     <van-cell-group>
@@ -50,11 +51,11 @@
     <view bindtap="bindViewTap">
       <user avatarUrl="{{userInfo.avatarUrl}}" nickName="{{userInfo.nickName}}"></user>
     </view>
-    <view class="motto">
-      <template is="motto" data="{{motto:motto}}" />
-    </view>
     <view class="powered">
       <text>{{powered.by}}</text>
+    </view>
+    <view class="motto">
+      <template is="motto" data="{{motto:motto}}" />
     </view>
   </view>
 </view>
