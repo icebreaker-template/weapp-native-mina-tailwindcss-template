@@ -84,7 +84,14 @@ module.exports = {
       NODE_ENV: 'development',
       BUILD_TYPE: 'debug',
     }),
-    new UnifiedWebpackPluginV5(),
+    new UnifiedWebpackPluginV5({
+      customAttributes: {
+        // 只对 t-button 标签生效
+        't-button': ['t-class', 't-class-icon', 't-class-loading'],
+        // '*' 代表对所有的标签生效
+        // '*': ['t-class', 't-class-icon', 't-class-loading'],
+      },
+    }),
   ],
   optimization: {
     splitChunks: {

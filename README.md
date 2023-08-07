@@ -42,6 +42,8 @@
 
 安装完之后，需要在微信开发者工具中对 `npm` 进行构建：`工具 - 构建 npm`
 
+另外，像 `tdesign-miniprogram` 它是允许传入外部样式类的，此时可以对 `UnifiedWebpackPluginV5` 插件的 `customAttributes` 进行配置，这样 `t-class` 这种才能准确转义。详见 `webpack.config.js`
+
 ## 最后有些话想说
 
 由于我精力有限，又要上班，又要维护和编写几个开源项目，和自己私有的项目啥的，还是推荐大家使用 `uni-app` 或者是 `taro` 框架的模板，这个原生模板需要更多的配置升级，才能达到它们那种尽善尽美的状态。
