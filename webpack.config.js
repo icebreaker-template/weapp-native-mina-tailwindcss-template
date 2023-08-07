@@ -20,6 +20,10 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.js'],
+    alias: {
+      // 记得配置 alias 不然 import Message from 'tdesign-miniprogram/message/index' 会找不到路径
+      'tdesign-miniprogram': resolve('./dist/miniprogram_npm/tdesign-miniprogram/'),
+    },
   },
   cache: {
     type: 'filesystem',
