@@ -9,6 +9,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "suba-a",
+          "pathName": "subs/a/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "subpkg",
           "pathName": "packageA/store/index",
           "query": "",

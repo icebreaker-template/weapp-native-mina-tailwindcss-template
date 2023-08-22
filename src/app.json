@@ -34,6 +34,12 @@
         "index/index",
         "store/index"
       ]
+    },
+    {
+      "root": "subs/a",
+      "pages": [
+        "index/index"
+      ]
     }
   ]
 }
