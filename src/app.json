@@ -1,5 +1,8 @@
 {
-  "pages": ["pages/index/index", "pages/logs/logs"],
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -12,13 +15,25 @@
     "color": "#000000",
     "selectedColor": "#000000",
     "backgroundColor": "#000000",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "index"
-    }, {
-      "pagePath": "pages/logs/logs",
-      "text": "logs"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "logs"
+      }
+    ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "subpackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "index/index",
+        "store/index"
+      ]
+    }
+  ]
 }
