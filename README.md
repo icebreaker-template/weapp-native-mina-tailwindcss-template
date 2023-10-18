@@ -1,18 +1,10 @@
-# 简介
+# weapp-tailwindcss 原生小程序模板
+
+假如你觉得好用，欢迎给我的 [`weapp-tailwindcss`](https://github.com/sonofmagic/weapp-tailwindcss) 点个 `Star` 吧。
 
 ## 修改 ts 代码后热更新不生效？
 
 记得关闭微信开发者工具中，`启动代码自动热重载功能` 这个功能。
-
-## 此项目和 [`listenzz/MyMina`](https://github.com/listenzz/MyMina) 的不同点
-
-- 摒弃了 `node-sass`，改用了 `dart-sass`
-- 摒弃了 `moment`，改用了 `dayjs`
-- 添加了 `postcss8` 和 `tailwindcss` 支持
-
-## 打包原理见原版 [listenzz/MyMina](https://github.com/listenzz/MyMina)
-
-感谢优秀的作者 `listenzz` 贡献了优秀的思路和实现！
 
 ## 组件样式隔离
 
@@ -44,6 +36,16 @@
 
 另外，像 `tdesign-miniprogram` 它是允许传入外部样式类的，此时可以对 `UnifiedWebpackPluginV5` 插件的 `customAttributes` 进行配置，这样 `t-class` 这种才能准确转义。详见 `webpack.config.js`
 
+## 此项目和 [`listenzz/MyMina`](https://github.com/listenzz/MyMina) 的不同点
+
+- 摒弃了 `node-sass`，改用了 `dart-sass`
+- 摒弃了 `moment`，改用了 `dayjs`
+- 添加了 `postcss8` 和 `tailwindcss` 支持
+
+## 打包原理见原版 [listenzz/MyMina](https://github.com/listenzz/MyMina)
+
+感谢优秀的作者 `listenzz` 贡献了优秀的思路和实现！
+
 ## 最后有些话想说
 
-由于我精力有限，又要上班，又要维护和编写几个开源项目，和自己私有的项目啥的，还是推荐大家使用 `uni-app` 或者是 `taro` 框架的模板，这个原生模板需要更多的配置升级，才能达到它们那种尽善尽美的状态。
+由于笔者精力有限，还是推荐大家使用 `uni-app` 或者是 `taro` 框架的模板，这个原生模板需要更多的配置升级，才能达到它们那种尽善尽美的状态。

@@ -17,7 +17,7 @@
     <t-input label="标签文字" placeholder="请输入文字"></t-input>
   </view>
   <view>
-    <view>以下是 tailwindcss jit 写法</view>
+    <view>以下是 tailwindcss jit 写法参考</view>
     <view class="bg-[#543214] w-10 h-10" hover-class="bg-[#888888]"></view>
     <view class="p-[20px] -mt-2 mb-[-20px]">
       p-[20px] -mt-2 mb-[-20px] margin的jit 可不能这么写 -m-[20px]
