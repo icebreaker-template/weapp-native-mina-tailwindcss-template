@@ -2,7 +2,7 @@
 <import src="../../wxml/motto/motto.wxml" />
 <view class="container">
   <view class="{{bgUrl}}"></view>
-  <view>{{motto}}</view>
+  <view class="{{mottoClass}}">{{motto}}</view>
   <view class="w-full">
     <view class="px-4 py-1">vant weapp 组件</view>
     <van-cell-group>

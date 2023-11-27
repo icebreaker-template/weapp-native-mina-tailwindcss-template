@@ -6,6 +6,7 @@ const app = getApp()
 Page({
   data: {
     motto: '原生小程序tailwindcss模板',
+    mottoClass: 'text-[#123654]',
     bgUrl:
       'bg-[url(https://pic1.zhimg.com/v2-3ee20468f54bbfefcd0027283b21aaa8_720w.jpg)] bg-[length:100%_100%] bg-no-repeat w-screen h-[41.54vw]',
     userInfo: {},

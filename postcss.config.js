@@ -14,12 +14,5 @@ module.exports = {
         375: 2 / 1,
       },
     },
-    // rem -> rpx
-    'postcss-rem-to-responsive-pixel': {
-      // 1rem -> 32rpx
-      rootValue: 32,
-      propList: ['*'],
-      transformUnit: 'rpx',
-    },
   },
 }

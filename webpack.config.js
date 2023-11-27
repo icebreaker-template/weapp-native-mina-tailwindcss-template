@@ -95,6 +95,7 @@ module.exports = {
         // '*' 代表对所有的标签生效
         // '*': ['t-class', 't-class-icon', 't-class-loading'],
       },
+      rem2rpx: true,
     }),
   ],
   optimization: {
