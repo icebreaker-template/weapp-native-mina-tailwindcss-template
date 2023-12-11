@@ -14,7 +14,8 @@
   <view>
     <view class="px-4 py-1 bg-gradient-to-b from-blue-500">tdesign-miniprogram 组件</view>
     <t-button t-class="!bg-pink-700 !w-[300rpx]" theme="primary" bind:tap="showTextMessage">按钮</t-button>
-    <t-input label="标签文字" placeholder="请输入文字"></t-input>
+    <view class="my-[3.2px]"></view>
+    <t-input class="my-[3.34px] py-2" label="标签文字" placeholder="请输入文字"></t-input>
   </view>
   <view>
     <view>以下是 tailwindcss jit 写法参考</view>
