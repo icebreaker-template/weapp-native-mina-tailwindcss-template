@@ -2,6 +2,10 @@
 
 假如你觉得好用，欢迎给我的 [`weapp-tailwindcss`](https://github.com/sonofmagic/weapp-tailwindcss) 点个 `Star` 吧。
 
+## 官方文档
+
+<https://weapp-tw.icebreaker.top/>
+
 ## 修改 ts 代码后热更新不生效？
 
 记得关闭微信开发者工具中，`启动代码自动热重载功能` 这个功能。
