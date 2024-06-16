@@ -1,10 +1,10 @@
 module.exports = {
   content: ['./src/**/*.{wxml,js,ts}'],
   theme: {
-    extend: {}
+    extend: {},
   },
   plugins: [],
   corePlugins: {
-    preflight: false
-  }
+    preflight: false,
+  },
 }
