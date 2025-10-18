@@ -1,11 +1,12 @@
 {
   "name": "my-mina",
-  "private": true,
   "version": "1.0.0",
+  "private": true,
   "description": "",
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "keywords": [],
+  "sideEffects": false,
   "scripts": {
     "dev": "npm run start",
     "type-check": "tsc --noEmit",
@@ -19,7 +20,6 @@
     "open": "weapp open -p",
     "postinstall": "weapp-tw patch"
   },
-  "sideEffects": false,
   "dependencies": {
     "@vant/weapp": "^1.11.6",
     "dayjs": "^1.11.11",
@@ -61,11 +61,11 @@
     "sass": "^1.77.5",
     "sass-loader": "^14.2.1",
     "tailwind-css-variables-theme-generator": "^0.4.0",
-    "tailwindcss": "^3.4.4",
+    "tailwindcss": "^3.4.18",
     "tailwindcss-rem2px-preset": "^1.0.3",
     "typescript": "^5.4.5",
-    "weapp-ide-cli": "^1.0.1",
-    "weapp-tailwindcss": "^3.3.1",
+    "weapp-ide-cli": "^4.0.0",
+    "weapp-tailwindcss": "^4.5.1",
     "weapp-tailwindcss-children": "^0.1.0",
     "webpack": "^5.92.0",
     "webpack-cli": "^5.1.4",
